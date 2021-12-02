@@ -11,6 +11,7 @@ with p.open('r', encoding = 'utf-8') as f:
 horizontalSum = 0
 depthSum = 0
 
+#increment hori/depth by distance traveled: d/u/f
 for line in lines:
     if line.strip().lower().startswith('d'):
         dist = line.split("down")
