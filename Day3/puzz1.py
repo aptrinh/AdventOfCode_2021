@@ -2,7 +2,6 @@
 #   Day 3.1/50
 #-------------
 from pathlib import Path
-from typing import Match
 
 strippedLines = []
 p = Path(__file__).with_name("Day3Input.txt")
